@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Services | TechForges</title>
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="assets/js/main.js" defer></script>
+<style>
+  /* Banner for future/in-progress services */
+  .banner{
+    background: linear-gradient(90deg, rgba(255,210,77,0.12), rgba(255,210,77,0.05));
+    border-left: 6px solid var(--gold);
+    padding: 18px 22px;
+    border-radius: var(--radius);
+    margin: 32px 0;
+    text-align:center;
+    font-weight:600;
+    color:var(--gold);
+    box-shadow:0 12px 30px rgba(0,0,0,0.5);
+  }
+
+  /* Coming Soon overlay */
+  .card.future{
+    position: relative;
+    overflow: hidden;
+  }
+  .card.future::after{
+    content: "Coming Soon";
+    position: absolute;
+    top: 12px;
+    right: -40px;
+    transform: rotate(45deg);
+    background: var(--gold);
+    color: var(--bg);
+    font-size: 12px;
+    font-weight:700;
+    padding: 6px 36px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  }
+</style>
+</head>
+<body>
+<header class="header container">
+  <div class="logo">TechForges</div>
+  <nav class="nav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="projects.html">Projects</a>
+    <a href="partners.html">Partners</a>
+    <a href="careers.html">Careers</a>
+    <a href="blog.html">Blog</a>
+    <a href="contact.html">Contact</a>
+    <a href="legal.html">Legal</a>
+  </nav>
+</header>
+
+<section class="hero container">
+  <div class="col-left">
+    <h1>Our Domains of Expertise</h1>
+    <p>TechForges leads in virtually every technological domain imaginable — from AI to SpaceTech, Quantum Computing to Metaverse, we pioneer innovation everywhere.</p>
+    <div class="cta">
+      <a href="contact.html" class="btn">Partner With Us</a>
+      <a href="projects.html" class="btn alt">View Projects</a>
+    </div>
+  </div>
+</section>
+
+<!-- Banner for services in progress -->
+<section class="container">
+  <div class="banner">
+    ⚡ Some services and domains are currently scheduled for future development. Only a few are fully operational — the rest are being innovated by our teams.
+  </div>
+</section>
+
+<section class="container">
+  <h2>Every Domain, Every Industry</h2>
+  <p class="lead">No tech frontier is too advanced. Our teams have expertise spanning enterprise software, deep tech, AI, cybersecurity, and the next-generation innovations shaping the world.</p>
+</section>
+
+<section class="container grid">
+  <div class="card"><h4>Artificial Intelligence</h4><p>Predictive models, neural networks, automation, and cognitive computing.</p></div>
+  <div class="card"><h4>Machine Learning</h4><p>From supervised to reinforcement learning for enterprise and research applications.</p></div>
+  <div class="card future"><h4>Quantum Computing</h4><p>Exploring the next frontier of ultra-fast computation and simulations.</p></div>
+  <div class="card"><h4>Deep Learning</h4><p>Advanced neural networks for computer vision, NLP, and beyond.</p></div>
+  <div class="card future"><h4>Metaverse Development</h4><p>Designing virtual worlds, social spaces, and digital economies.</p></div>
+  <div class="card"><h4>Data Analytics</h4><p>Turn raw data into actionable insights at scale.</p></div>
+  <div class="card future"><h4>Satellite & SpaceTech</h4><p>Orbital systems, data collection, and futuristic aerospace innovation.</p></div>
+  <div class="card"><h4>Blockchain & Web3</h4><p>Smart contracts, decentralized finance, NFTs, and metaverse integrations.</p></div>
+  <div class="card future"><h4>Biotechnology & HealthTech</h4><p>AI-assisted drug discovery, diagnostics, and advanced biotech research.</p></div>
+  <div class="card"><h4>Cloud Computing</h4><p>Hybrid, private, and multi-cloud architectures for global operations.</p></div>
+  <div class="card"><h4>Cybersecurity</h4><p>Advanced threat detection, pentesting, and defense strategies.</p></div>
+  <div class="card future"><h4>Advanced Materials</h4><p>Research and applications in nanotechnology, composites, and smart materials.</p></div>
+  <div class="card"><h4>Robotics</h4><p>Autonomous machines and intelligent automation for industries and labs.</p></div>
+  <div class="card"><h4>IoT & Smart Devices</h4><p>Connecting physical and digital worlds seamlessly and securely.</p></div>
+  <div class="card future"><h4>Energy & CleanTech</h4><p>Sustainable technology solutions for energy and environmental sectors.</p></div>
+  <div class="card"><h4>Virtual & Augmented Reality</h4><p>Immersive experiences for enterprise, training, and entertainment.</p></div>
+  <div class="card"><h4>DevOps & Automation</h4><p>Continuous integration, delivery, and infrastructure automation.</p></div>
+  <div class="card"><h4>Edge Computing</h4><p>High-performance computation closer to data sources for efficiency.</p></div>
+  <div class="card future"><h4>5G & Networking</h4><p>Next-generation communication infrastructure and solutions.</p></div>
+  <div class="card"><h4>Enterprise Software</h4><p>Full-stack solutions for businesses of any scale and sector.</p></div>
+</section>
+
+<footer class="footer">
+  <p>© 2025 TechForges. Made with creativity by <a href="#">Sharav Arora</a> — CEO & Founder.</p>
+</footer>
+</body>
+</html>
